@@ -132,3 +132,19 @@ margin: 0 4px 0 4px;
   font-size: 11px;
   text-transform: initial;
 }
+
+#form-infos{
+  margin-top: 12px;
+}
+
+.btn-submit{
+  /* border: 1px solid red; */
+  margin-top: 18px;
+  /* background-color: red; */
+  
+}
+
+#submit-btn{
+  margin-right: 100px;
+  /* background-color: red; */
+}
