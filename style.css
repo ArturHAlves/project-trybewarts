@@ -1,15 +1,23 @@
+@import url("http://fonts.cdnfonts.com/css/adobe-garamond-pro-2");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+main {
+  background-image: url(/images/trybewarts-foto.png);
+  height: 100vh;
+  display: flex;
+}
 /* Inicio CSS */
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
 }
+
 
 .trybewarts-header-logo {
   height: 60px;
@@ -44,22 +52,31 @@
   color: white;
 }
 
-main {
-  display: flex;
+.container {
+  font-family: "Adobe Garamond Pro", sans-serif;
+  backdrop-filter: blur(70px);
+  background-color: rgba(114, 104, 104, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(17, 83, 95, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: white;
+  font-size: 17px;
 }
 
-#form-avalition{
-  margin: 40px 0px 30px 0px;
+#form-avalition {
+  margin: 23px 0px 16px 0px;
 }
 
-#form-avalition h3{
+#form-avalition h3 {
   text-align: center;
   font-family: "SPQR", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
+  color: rgb(235, 235, 235);
+  text-decoration: underline;
 }
 
-.form-avaliation{
-text-align: center;
+.form-avaliation {
+  text-align: center;
 }
 
 #evaluation-form {
@@ -73,28 +90,28 @@ text-align: center;
 }
 
 /* Styles */
-#input-name , #input-lastname{
-margin: 0 4px 0 4px;
+#input-name,
+#input-lastname {
+  margin: 0 4px 0 4px;
 }
 
-.form-registration{
+.form-registration {
   display: flex;
   margin-top: 13px;
 }
 
-#input-email{
+#input-email {
   margin-left: 3px;
 }
 
-#label-house{
+#label-house {
   margin-left: 10px;
 }
 
-#house{
+#house {
   width: 336px;
   margin-right: 2px;
 }
-
 
 #trybewarts-forms-logo {
   height: 500px;
@@ -114,21 +131,51 @@ margin: 0 4px 0 4px;
   margin-top: 15px;
 }
 
-#avalation-trybewarts{
+#avalation-trybewarts {
   margin-top: 12px;
 }
 
-#form-textarea{
+#form-textarea {
   margin-top: 13px;
 }
 
-#textarea{
+#textarea {
   resize: none;
   width: 540px;
   height: 80px;
 }
 
-#counter, #counter-text{
+#counter,
+#counter-text {
   font-size: 11px;
   text-transform: initial;
+}
+
+#form-infos {
+  margin-top: 12px;
+}
+
+.btn-submit {
+  margin-top: 18px;
+}
+
+#submit-btn {
+  margin-right: 100px;
+  background-color: rgb(50, 167, 145);
+  font-size: 22px;
+  border-radius: 14px;
+  color: white;
+}
+
+footer {
+  /* position: fixed; */
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  padding: 0;
+  background-color: black;
+  /* background: rgba(0, 0, 0, 0.3); */
+  /* backdrop-filter: blur(19px); */
+  height: 30px;
+  color: white;
 }
